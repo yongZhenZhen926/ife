@@ -1,0 +1,305 @@
+/*
+一看到水平线就以为要用<hr></hr>,其实不然，用一个div，然后用border: 2px solid #ccc一样可以做到
+html5 明天一定要好好复习一下，都不记得了
+
+class和id命名：
+1.语义性（sidebar(侧边栏)， warning（警告））
+2.可接受的字符（始终以字母开头，不要使用下划线，可使用连字符）
+3.一致性（采用骆驼峰）
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #000;
+}
+#container{
+	width: 980px;
+	height: 1386px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+#header{
+	margin: 0 41px;
+	border-bottom: 2px solid #938e8c;
+	height: 61px;
+}
+#top-title{
+	position: relative;
+	top: 0;
+	width: 110px;
+	height: 61px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 100px;
+}
+
+#top-date{
+	text-align: right;
+	color: red;
+	font-size: 9px;
+	position: relative;
+	right: 0;
+	bottom: 13px;
+}
+
+.first-paper {
+	width: 892px;
+	height: 301px;
+	margin: 35px 41px;
+}
+.mainImg{
+		float: left;
+}
+
+/*设置图片两侧的透明处*/
+.mainImg .mainLeft{
+	position: absolute;
+	width: 191px;
+	height: 301px;
+	background-color: #6f3;
+	left: 225px;
+	left: 225px;
+	top: 98px;
+	opacity: 0.25;
+}
+
+.mainImg .mainRight{
+	position: absolute;
+	right: 483px ;
+	top:100px ;
+	width: 191px;
+	height: 301px;
+	background-color: #f36;
+	opacity: 0.25;
+}
+
+.aside{
+	width: 203px;
+	border-top: 2px solid #cc8091;
+	float: right;
+}
+.aside .content {
+	text-decoration: underline;	
+	font-size: 24px;
+	font-family: "微软雅黑";
+}
+.aside .about{
+	font-weight: bold;
+}
+.tech {
+	color: #676767;
+	font-size: 12px;
+}
+.aside .style-one{
+	font-size: 116px;
+	color: #75b86b;
+	font-style: italic;
+}
+.aside .style-two{
+	font-size: 55px;
+	color: #cc8090;
+	font-family: "微软雅黑";
+	margin-top: -20px;
+}
+.aside .style-three{
+	font-size: 21px;
+	color: #cc8090;
+	font-family: "微软雅黑";
+}
+.css{
+	position: absolute;
+	right: 280px;
+	bottom: 266px;
+	line-height: 12px;
+}
+.aside .style-four{
+	font-size: 12px;
+	color: #ccc;
+	font-family: "微软雅黑";
+}
+
+
+#second-part {
+	width: 641px;
+	margin: 41px 0 41px 41px;
+	color: #999;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+	-moz-column-gap: 40px;
+	-webkit-column-gap: 40px;
+	column-gap: 40px;
+}
+#second-part h3 {
+	text-decoration: underline;
+}
+#second-part .leftone {
+	color: green;
+}
+#second-part .centerone {
+	color: yellow;
+}
+#second-part .rightone {
+	color: #f36;
+}
+#second-part .connect {
+	margin-top: 50px;
+	color: #666;
+}
+#second-part .connect .inner {
+	font-style: italic;
+	color: #cd4a48;
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+#last-part {
+	width: 892px;
+	margin: 0 41px 30px 41px;
+	border-bottom: 2px solid #999;
+	height: 650px;
+}
+#last-part .sidebar-left {
+	width: 372px;
+	margin-right: 20px;
+	font-size: "黑体";
+	float: left;
+	color: #11456b;
+
+}
+#last-part .sidebar-right {
+	float: right;
+}
+#last-part .sidebar-left .extral {
+	font-size: 42px;
+}
+#last-part .sidebar-left .front-page {
+	font-size: 33px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #11456b;	
+}
+#last-part .first-letter {
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+}
+
+#last-part .big-character {
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "微软雅黑";
+	float: left;
+	margin: -5px 5px 0 5px;
+}
+#last-part .text {
+	text-indent: 2em;
+}
+.sidebar-right #monday{
+	margin: 50px 30px 0 30px;
+	width: 150px;
+	height: 100px;
+	border-left: 2px solid #fff;
+	position: relative;
+	left: 60px;
+	top: 0px;
+	padding: 0;
+}
+.sidebar-right .box {
+	width: 457px; 
+	height: 128.5px; 
+	position: absolute;
+	bottom: -290px;
+	opacity: 0.4;
+	background-color: #fc3;
+}
+.sidebar-right .box-two {
+	width: 400px;
+	height: 45px;
+	border-left: 2px solid green;
+	text-align: left;
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	font-size: 26px;
+	color: red;
+	padding-left: 10px;
+}
+.sidebar-right .box-three {
+	font-size: 18px; 
+	color: #72b16a;
+}
+.sidebar-right .box-four {
+	background-color: #fc9; 
+	width: 458px; 
+	height: 340px;
+	margin-top: 10px;
+}
+.sidebar-right .box-five {
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+	color: #999;
+}
+.sidebar-right .box-six {
+	width: 280px; 
+	height: 195px;
+	background-color: #c03;
+	color: #fff; 
+	position: relative; 
+	float: left;
+}
+.sidebar-right .box-seven {
+	font-size: 120px; 
+	display: inline; 
+	position: absolute; 
+	left:20px; 
+	top: 12px;
+}
+.sidebar-right .box-eight {
+	width: 200px; 
+	height: 80px; 
+	border-left: 2px solid #fff; 
+	padding: 10px;
+	position: absolute;
+	right: -30px;
+	top: 40px;
+}
+.sidebar-right .box-nine {
+	font-size: 20px; 
+	font-style: italic;
+}
+.sidebar-right .box-ten {
+	margin: 30px auto; 
+	padding: 20px;
+	text-align: center; 
+	text-indent: 2em; 
+	font-style: italic;
+	color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

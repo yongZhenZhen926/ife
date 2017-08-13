@@ -1,0 +1,454 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+body {
+	margin: 0 auto;
+	width: 1280px;
+	overflow-x: hidden;
+	background-color: #000;
+}
+.all{
+	background-color: white;
+}
+header{
+	height: 56px;
+	border: 1px solid black;
+}
+
+.firstp{
+	float: left;
+	height: 56px;
+}
+
+.firstp .site-pc{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.firstp .site-pic{
+	display: block;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.login{
+	float: right;
+	font-size: 20px;
+	margin: 10px 40px 10px 0;
+}
+
+.nav{
+	float: right;
+	margin-top: 10px;
+}
+
+.nav li{
+	list-style: none;
+	float: left;
+	text-decoration: none;
+}
+
+.nav a{
+	font-size: 22px;
+	margin-right: 40px;
+	color: #aaa;
+}
+
+/*第二部分*/
+.main{
+	background: url(image/firstPart.jpg) no-repeat;
+	background-size: cover;  /*如果不适用这个，图片永远不能铺满*/
+	height: 690px;
+}
+.part{
+	position: relative;
+	left: 150px;
+	top: 250px;
+}
+.part h2{
+	color: #fff;
+	font-size: 60px;
+}
+
+.part p{
+	color: #fff;
+	font-size: 20px;
+}
+
+.part #button{
+	width: 400px;
+	height: 80px;
+	background-color: red;
+	border-style: none;
+	color: #fff;
+	font-size: 40px;
+	margin-top: 20px;
+	transition: color 2s
+}
+.part #button:hover{
+	background-color: #fff;
+	color: red;
+}
+
+
+/*第三部分*/
+.third-part{
+		color: #aaa;
+		text-align: center;
+		width: 100%;
+		height: 200px;
+}
+
+.smallpart{
+	width: 300px;
+	height: 100px; 
+	position: relative;
+	top: 50px;
+	left: 50px;
+	border-right: 2px solid #ccc;
+}
+
+.onepart{
+	width: 300px;
+	height: 100px; 
+	position: relative;
+	top: -50px;
+	left: 400px;
+	border-right: 2px solid #ccc;
+}
+
+.twopart{
+	width: 300px;
+	height: 100px; 
+	position: relative;
+	top: -150px;
+	left: 700px;
+	border-right: 2px solid #ccc;
+}
+
+.threepart{
+	width: 300px;
+	height: 100px; 
+	position: relative;
+	top: -250px;
+	left: 1000px;
+
+}
+
+/*第四部分*/
+.forthPart{
+	width: 100%;
+	height: 400px;
+	background-color: #eee;
+	text-align: center;
+	color: #aaa;
+	font-size: 60px;
+	border-right: 2px solid #ccc;
+}
+.minipart{
+	position: relative;
+	top: 50px;
+}
+
+/*第五部分*/
+.fivepart{
+	height: 400px;
+	background: url(image/bgimage-1.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.paragrah-one{
+	font-size: 26px;
+	padding: 10px;
+}
+
+.level-line{
+	width: 20px;
+	border: 2px solid #fff;
+	position: relative;
+	top: -5px;
+	left: 650px;
+	transition: width 2s;
+}
+.paragrah-two{
+	padding: 30px;
+}
+.country{
+	width: 250px;
+	height: 40px;
+	background-color: #fff;
+	color: #ccc;
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+#search{
+	width: 250px;
+	height: 40px;
+	border-style: none;
+	color: #fff;
+	font-size: 10px;
+	background-color: red;
+	transition: color 2s;
+}
+
+#search:hover{
+	background-color: #a35;
+}
+
+/*第六部分*/
+
+.sixPart{
+	height: 600px;
+}
+
+.sixPart img{
+	border: 1px solid #ccc;
+	padding: 10px 5px;
+}
+
+.sixPart .box-one{
+	position: relative;
+	top: 100px;
+	left: 150px;
+}
+
+.sixPart .box-two{
+	position: relative;
+	top: -250px;
+	left: 400px;
+}
+
+.sixPart .box-three{
+	position: relative;
+	top: -620px;
+	left: 650px;
+	margin-right: 10px;
+}
+
+.sixPart .box-four{
+	position: relative;
+	top: -980px;
+	left: 900px;
+}
+
+.one-p{
+	font-weight: bold;
+}
+
+.two-p{
+	color: #ccc;
+}
+.eight{
+	width: 100%;
+	height: 650px;
+}
+
+.grey{
+	color: grey;
+	font-size: 12px;
+}
+
+.right{
+	position: relative;
+	left: 700px;
+	top: -350px;
+}
+.specification{
+	height: 20px;
+	width: 100px;
+	border: 1px solid red;
+	text-align: center;
+	padding: 5px;
+	color: red;
+}
+
+.style1{
+	width: 450px;
+	height: 450px;
+	background-color: #f33;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+}
+.center{
+	position: relative;
+	top: 150px;
+
+}
+.specifications{
+	width: 150px;
+	height: 24px;
+	padding: 6px;
+	border: 1px solid #fff;
+	position: relative;
+	left: 100px;
+	top: 40px;
+}
+
+.style2{
+	width: 450px;
+	height: 450px;
+	background-color: #af0;
+	color: #000;
+	text-align: center;
+	font-size: 22px;
+	position: relative;
+	left: 400px;
+	top: -450px;
+}
+
+.specificationsa{
+	width: 150px;
+	height: 24px;
+	padding: 6px;
+	color: #f00;
+	border: 1px solid #f00;
+	position: relative;
+	left: 130px;
+	top: 60px;
+}
+.centera{
+	position: relative;
+	top: 150px;
+
+}
+.myimg{
+	width: 480px;
+	height: 450px;
+	position: relative;
+	top: -900px;
+	left: 800px;
+}
+
+.partn{
+	height: 450px;
+}
+
+/*第九部分*/
+.Ninepart{
+	width: 100%;
+	height: 800px;
+	border: 1px solid black;
+}
+
+.title{
+	font-size: 22px;
+	
+}
+.text1{
+	text-align: center;
+
+}
+.text1 .extra-text{
+	font-size: 24px;
+	color: red;
+}
+.text1 .second-title{
+	font-size: 14px;
+	color: grey;
+}
+
+.title-left{
+	font-size: 20px;
+	font-weight: bold;
+}
+.title-left-second{
+	color: grey;
+	font-size: 15px;
+}
+
+.mytext{
+	width: 300px;
+	height: 40px;
+	background-color: #BCD2EE;
+}
+textarea{
+	width: 620px;
+	height: 100px;
+	background-color: #BCD2EE;
+}
+.submit{
+	width: 620px;
+	height: 40px;
+	background-color: #BCD2EE;
+}
+
+.text1{
+	position: relative;
+	top: 100px;
+}
+.part2{
+	position: relative;
+	top: 200px;
+	left: 600px;
+}
+.part3{
+	position: relative;
+	top: -100px;
+	left: 200px;
+}
+
+.last-part{
+	width: 100%;
+	height: 300px;
+	color: white;
+	background-color: #333;
+	text-align: center;
+}
+.best{
+	position: relative;
+	top: 100px;
+}
+.p1{
+	font-size: 26px;
+
+}
+.p2{
+	font-size: 10px;
+}
+.textn{
+	width: 500px;
+	height: 30px;
+	color: grey;
+	
+}
+.button{
+	width: 60px;
+	height: 35px;
+	background-color: #404040;
+	border: none;
+	color: white;
+	font-size: 15px;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	color: white;
+	background-color: #000;
+}
+.left-footer{
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+
+.right-footer{
+	position: relative;
+	top: 20px;
+	left: 1150px;
+}
+
+
+
+
+
+
+
+
+
+
